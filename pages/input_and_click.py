@@ -17,19 +17,26 @@ class InputAndClick(BaseObject, Assertions):
 
     @allure.step('Creating a new note')
     def enter_note(self):
-        self.send_keys(self.TEXT_FIELD, self.text)
-        self.click(self.ADD_BTN)
+        with allure.step('Entering text into field'):
+            self.send_keys(self.TEXT_FIELD, self.text)
+        with allure.step('Click add button'):
+            self.click(self.ADD_BTN)
 
+    @allure.step('Checking creating a new note')
     def enter_note_check(self):
         self.enter_note()
-        self.assert_equal(self.get_text(self.NOTE_DIV), self.text)
+        with allure.step('Checking the note was created'):
+            self.assert_equal(self.get_text(self.NOTE_DIV), self.text)
 
     @allure.step('Deleting the last note')
     def delete_note(self):
-        self.click(self.DELETE_BTN)
+        with allure.step('Click delete button'):
+            self.click(self.DELETE_BTN)
 
+    @allure.step('Checking the note was deleted ')
     def delete_check(self):
         self.enter_note()
         self.delete_note()
-        result = self._is_invisible(self.NOTE_DIV)
-        self.assert_invisibility(result)
+        with allure.step('Assertion of deleting the note'):
+            result = self._is_invisible(self.NOTE_DIV)
+            self.assert_invisibility(result)

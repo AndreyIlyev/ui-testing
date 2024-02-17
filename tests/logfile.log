@@ -1,0 +1,68 @@
+******* 02/11/2024 09: 46: 13 PM - INFO - Element ('id', 'inputText') is visible *******
+******* 02/11/2024 09: 46: 13 PM - INFO - Element ('css selector', '#items > div') is visible *******
+******* 02/13/2024 10: 50: 40 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="e2f111fefbb5bd1aa440da2f02c70246", element="CC5D3B5E211D4E48C006E59D905A9EAB_element_3")> *******
+******* 02/13/2024 10: 50: 40 PM - INFO - Element ('css selector', '#items > div') is <selenium.webdriver.remote.webelement.WebElement (session="e2f111fefbb5bd1aa440da2f02c70246", element="CC5D3B5E211D4E48C006E59D905A9EAB_element_15")> *******
+******* 02/14/2024 10: 01: 11 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="176f3ca476db5123eb8dd26c86474966", element="8195B66DA3EB5C5EACD9E1EBFA5414F7_element_3")> *******
+******* 02/14/2024 10: 21: 28 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="d2338cd7af9798b4699570a268411a59", element="1EAE0900F3FFFF2EF5E377366F9B30F5_element_3")> *******
+******* 02/14/2024 10: 24: 22 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="d843dc21999f289460a37fc7a4f9825f", element="04CBDC5AF2816CDD132F2DABB6FA45B1_element_3")> *******
+******* 02/14/2024 10: 25: 37 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="9a0fd1344defc423dffaa3d31b05bace", element="05C7D4B335B1D907EC77B06A32ED8393_element_3")> *******
+******* 02/14/2024 10: 29: 05 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="ba54a1b45441e5d0d3569e32aacb4cb0", element="7809852DF3E404C72082FB07039F0C2F_element_3")> *******
+******* 02/14/2024 10: 29: 06 PM - INFO - Element ('css selector', '#items > div') is True *******
+******* 02/14/2024 10: 33: 37 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="c7d4eb350025958c79e2a9e6d8f73edf", element="5C508DBBEE5A24577E7215F30E8A463B_element_3")> *******
+******* 02/14/2024 10: 34: 35 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="2eaef62dadc107173c8526acb2eaef29", element="099F6B869B06CF82A288B2CEDCC8A727_element_3")> *******
+******* 02/14/2024 10: 34: 48 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="7a6c25ffa30b5fb8cc380787c8491486", element="54CC1788E26D95BB93FB8D13EA1950BF_element_3")> *******
+******* 02/14/2024 10: 41: 25 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="965512f35441229534d2832f128b94bc", element="C3213811073591B36AA9EDD646B8C377_element_3")> *******
+******* 02/14/2024 10: 41: 25 PM - INFO - Element ('css selector', '#items > div') is <selenium.webdriver.remote.webelement.WebElement (session="965512f35441229534d2832f128b94bc", element="C3213811073591B36AA9EDD646B8C377_element_15")> *******
+******* 02/15/2024 06: 23: 04 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="f4ab5575b741aa75e18365c9482df2b5", element="883A64313EB307A13BBB20EE63BD4B2B_element_3")> *******
+******* 02/15/2024 06: 23: 05 PM - INFO - Element ('css selector', '#items > div') is True *******
+******* 02/15/2024 09: 09: 14 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="54ede2d889f504e4ff27ce0a5eb5bb32", element="D946D83A14EF2A2D2256234212C0EABD_element_3")> *******
+******* 02/15/2024 09: 09: 14 PM - INFO - Element ('css selector', '#items > div') is True *******
+******* 02/16/2024 06: 45: 53 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="8d25becb03ef70d03ea743247751cd64", element="8BE2D0AF8BA79E0AB90EEC14C0CBE936_element_3")> *******
+******* 02/16/2024 06: 45: 58 PM - ERROR - Element ('css selector', '#items > div') is visible *******
+******* 02/16/2024 06: 47: 07 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="625f995dedea564fdc74bd03ffaab8e1", element="21A7951BBBA18CEC272E716F02F64579_element_3")> *******
+******* 02/16/2024 06: 47: 07 PM - INFO - Element ('css selector', '#items > div') is True *******
+******* 02/16/2024 06: 48: 13 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="005251c8da44b057e29e833f10279485", element="42054F306854613C4ED9EB63B720C87C_element_3")> *******
+******* 02/16/2024 06: 48: 19 PM - ERROR - Element ('css selector', '#items > div') is visible *******
+******* 02/16/2024 06: 54: 02 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="580a557512d9c9c53487f2d8247f70a0", element="73CCE8F609CE061A483D06BA959D7801_element_3")> *******
+******* 02/16/2024 06: 54: 02 PM - INFO - Element('id', 'addBtn') is clickable *******
+******* 02/16/2024 06: 54: 02 PM - INFO - Element ('css selector', '#items > div') is <selenium.webdriver.remote.webelement.WebElement (session="580a557512d9c9c53487f2d8247f70a0", element="73CCE8F609CE061A483D06BA959D7801_element_15")> *******
+******* 02/16/2024 07: 44: 46 PM - INFO - Element ('xpath', '/html/body/div[2]/ul/li[15]/input') is <selenium.webdriver.remote.webelement.WebElement (session="3ebd3ed4ac26b5bf8bd6de581d60daab", element="DF4B5D2BA3AA7D3639F5D71CE71806CF_element_17")> *******
+******* 02/16/2024 07: 44: 46 PM - INFO - Scroll to element ('xpath', '/html/body/div[2]/ul/li[15]/input') was performed *******
+******* 02/16/2024 07: 44: 51 PM - ERROR - Element ('id', '#counter') is invisible *******
+******* 02/16/2024 07: 48: 18 PM - INFO - Element ('xpath', '/html/body/div[2]/ul/li[15]/input') is <selenium.webdriver.remote.webelement.WebElement (session="0e4707779dd97514360b3fd6b9cb9448", element="2339B62E496AB6686F924AC5F6C9E628_element_17")> *******
+******* 02/16/2024 07: 48: 18 PM - INFO - Scroll to element ('xpath', '/html/body/div[2]/ul/li[15]/input') was performed *******
+******* 02/16/2024 07: 48: 18 PM - INFO - Element('xpath', '/html/body/div[2]/ul/li[15]/input') is clickable *******
+******* 02/16/2024 07: 48: 24 PM - ERROR - Element ('id', '#counter') is invisible *******
+******* 02/16/2024 07: 48: 59 PM - INFO - Element ('xpath', '/html/body/div[2]/ul/li[15]/input') is <selenium.webdriver.remote.webelement.WebElement (session="0f860d7be2d4c086b2916a8e4732ea58", element="E0ECE17CE403A79142E67239B45C3420_element_17")> *******
+******* 02/16/2024 07: 48: 59 PM - INFO - Scroll to element ('xpath', '/html/body/div[2]/ul/li[15]/input') was performed *******
+******* 02/16/2024 07: 48: 59 PM - INFO - Element('xpath', '/html/body/div[2]/ul/li[15]/input') is clickable *******
+******* 02/16/2024 07: 49: 04 PM - ERROR - Element ('id', '#counter') is invisible *******
+******* 02/16/2024 08: 19: 43 PM - INFO - Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="9ce3f44c379f9f47e5af848f9ec2c233", element="56BF3962A49B78131CCAF083482FD5C3_element_3")> *******
+******* 02/16/2024 08: 19: 43 PM - INFO - Element('id', 'addBtn') is clickable *******
+******* 02/16/2024 08: 19: 43 PM - INFO - Element ('css selector', '#items > div') is <selenium.webdriver.remote.webelement.WebElement (session="9ce3f44c379f9f47e5af848f9ec2c233", element="56BF3962A49B78131CCAF083482FD5C3_element_15")> *******
+******* 02/16/2024 08: 19: 43 PM - INFO - Text from element ('css selector', '#items > div') is test example *******
+******* 02/17/2024 05: 27: 27 PM - INFO - Element ('class name', 'dropdown') is <selenium.webdriver.remote.webelement.WebElement (session="bd17a708ec71d5d798abf57a0b373a78", element="B484F02DAD63E95636CCB007FBCCE572_element_4")> *******
+******* 02/17/2024 05: 27: 28 PM - INFO - Cursor hovered over element <selenium.webdriver.remote.webelement.WebElement (session="bd17a708ec71d5d798abf57a0b373a78", element="B484F02DAD63E95636CCB007FBCCE572_element_4")> *******
+******* 02/17/2024 05: 27: 28 PM - INFO - Element ('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is <selenium.webdriver.remote.webelement.WebElement (session="bd17a708ec71d5d798abf57a0b373a78", element="B484F02DAD63E95636CCB007FBCCE572_element_11")> *******
+******* 02/17/2024 05: 28: 44 PM - INFO - Element ('class name', 'dropdown') is <selenium.webdriver.remote.webelement.WebElement (session="1719addb4f9362ab6461857e677cf3ac", element="E42F95170AD7511DEC17C1C22FFF834F_element_4")> *******
+******* 02/17/2024 05: 28: 44 PM - INFO - Cursor hovered over element <selenium.webdriver.remote.webelement.WebElement (session="1719addb4f9362ab6461857e677cf3ac", element="E42F95170AD7511DEC17C1C22FFF834F_element_4")> *******
+******* 02/17/2024 05: 28: 45 PM - INFO - Element ('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is <selenium.webdriver.remote.webelement.WebElement (session="1719addb4f9362ab6461857e677cf3ac", element="E42F95170AD7511DEC17C1C22FFF834F_element_11")> *******
+******* 02/17/2024 05: 29: 33 PM - INFO - Element ('class name', 'dropdown') is <selenium.webdriver.remote.webelement.WebElement (session="8665d78a7c676e56956f024be099b906", element="C0985D3EB6AC3AF18AD189A6512F4F18_element_6")> *******
+******* 02/17/2024 05: 29: 33 PM - INFO - Cursor hovered over element <selenium.webdriver.remote.webelement.WebElement (session="8665d78a7c676e56956f024be099b906", element="C0985D3EB6AC3AF18AD189A6512F4F18_element_6")> *******
+******* 02/17/2024 05: 29: 33 PM - INFO - Element ('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is <selenium.webdriver.remote.webelement.WebElement (session="8665d78a7c676e56956f024be099b906", element="C0985D3EB6AC3AF18AD189A6512F4F18_element_11")> *******
+******* 02/17/2024 05: 44: 13 PM - INFO - Element('id', 'item-3') is clickable *******
+******* 02/17/2024 05: 44: 13 PM - INFO - Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_11")> *******
+******* 02/17/2024 05: 44: 13 PM - ERROR - Element ('id', 'item-3') dragged, and dropped to ('id', 'item-1') *******
+******* 02/17/2024 05: 44: 13 PM - INFO - Element('id', 'item-2') is clickable *******
+******* 02/17/2024 05: 44: 14 PM - INFO - Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_11")> *******
+******* 02/17/2024 05: 44: 14 PM - ERROR - Element ('id', 'item-2') dragged, and dropped to ('id', 'item-1') *******
+******* 02/17/2024 05: 44: 14 PM - INFO - Element('id', 'item-7') is clickable *******
+******* 02/17/2024 05: 44: 14 PM - INFO - Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_11")> *******
+******* 02/17/2024 05: 44: 15 PM - ERROR - Element ('id', 'item-7') dragged, and dropped to ('id', 'item-1') *******
+******* 02/17/2024 05: 44: 15 PM - INFO - Element('id', 'item-4') is clickable *******
+******* 02/17/2024 05: 44: 15 PM - INFO - Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_11")> *******
+******* 02/17/2024 05: 44: 15 PM - ERROR - Element ('id', 'item-4') dragged, and dropped to ('id', 'item-1') *******
+******* 02/17/2024 05: 44: 15 PM - INFO - Element('id', 'item-5') is clickable *******
+******* 02/17/2024 05: 44: 15 PM - INFO - Element ('id', 'item-6') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_16")> *******
+******* 02/17/2024 05: 44: 16 PM - ERROR - Element ('id', 'item-5') dragged, and dropped to ('id', 'item-6') *******
+******* 02/17/2024 05: 44: 16 PM - INFO - Element ('class name', 'done') is <selenium.webdriver.remote.webelement.WebElement (session="d5fdb77950c154371bf640f7e8f15862", element="2DA753B58B905ADDA381E4CE5079D524_element_17")> *******

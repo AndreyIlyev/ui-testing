@@ -1,0 +1,2 @@
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'dataInput') is <selenium.webdriver.remote.webelement.WebElement (session="14d097c5a3aca13574180e1ed132b5fa", element="3042FF114B146D118788AAF38788FFB0_element_3")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'validationSquare') is <selenium.webdriver.remote.webelement.WebElement (session="14d097c5a3aca13574180e1ed132b5fa", element="3042FF114B146D118788AAF38788FFB0_element_8")>

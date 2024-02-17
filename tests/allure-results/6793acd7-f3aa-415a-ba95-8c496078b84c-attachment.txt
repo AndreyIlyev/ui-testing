@@ -1,0 +1,3 @@
+INFO     BaseObject:base.py:20 Element ('xpath', '/html/body/div[2]/ul/li[15]/input') is <selenium.webdriver.remote.webelement.WebElement (session="3ebd3ed4ac26b5bf8bd6de581d60daab", element="DF4B5D2BA3AA7D3639F5D71CE71806CF_element_17")>
+INFO     BaseObject:base.py:78 Scroll to element ('xpath', '/html/body/div[2]/ul/li[15]/input') was performed
+ERROR    BaseObject:base.py:23 Element ('id', '#counter') is invisible

@@ -1,0 +1,1 @@
+[1m[31mERROR   [0m BaseObject:base.py:23 Element ('id', '#counter') is invisible

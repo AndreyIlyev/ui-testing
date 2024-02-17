@@ -1,0 +1,5 @@
+[32mINFO    [0m BaseObject:base.py:20 Element ('class name', 'dropdown') is <selenium.webdriver.remote.webelement.WebElement (session="139617e0766e1a7c0b83c2fbeebd9c42", element="7A96AC07A10BFD047BEEB38BEFE2729E_element_4")>
+[32mINFO    [0m BaseObject:base.py:69 Cursor hovered over element <selenium.webdriver.remote.webelement.WebElement (session="139617e0766e1a7c0b83c2fbeebd9c42", element="7A96AC07A10BFD047BEEB38BEFE2729E_element_4")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is <selenium.webdriver.remote.webelement.WebElement (session="139617e0766e1a7c0b83c2fbeebd9c42", element="7A96AC07A10BFD047BEEB38BEFE2729E_element_11")>
+[32mINFO    [0m BaseObject:base.py:37 Element('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is clickable
+[32mINFO    [0m BaseObject:base.py:61 Current url is https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html

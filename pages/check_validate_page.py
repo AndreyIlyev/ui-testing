@@ -1,3 +1,5 @@
+import allure
+
 from base.base import BaseObject
 from support.assertions import Assertions
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -11,5 +13,6 @@ class CheckValidate(BaseObject, Assertions):
     INPUT_FIELD = (By.ID, 'dataInput')
     VALID_SQUARE = (By.ID, 'validationSquare')
 
+    @allure.step('Entering values')
     def enter_value(self, value: str = ''):
         self.send_keys(self.INPUT_FIELD, value)

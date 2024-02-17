@@ -1,6 +1,8 @@
+import allure
 import pytest
 
 
+@allure.title('Test of validation')
 @pytest.mark.parametrize('value, error_msg',
                          [
                              ('15', 'Valid'),
@@ -11,5 +13,6 @@ import pytest
                          ])
 def test_check_values(check_validate_page, value, error_msg):
     check_validate_page.enter_value(value)
-    actual_msg = check_validate_page.get_text(check_validate_page.VALID_SQUARE)
-    check_validate_page.assert_equal(actual_msg, error_msg)
+    with allure.step('Checking the msg of validation'):
+        actual_msg = check_validate_page.get_text(check_validate_page.VALID_SQUARE)
+        check_validate_page.assert_equal(actual_msg, error_msg)

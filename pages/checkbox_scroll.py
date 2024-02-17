@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from base.base import BaseObject
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -11,9 +12,13 @@ class CheckboxScroll(BaseObject, Assertions):
     CHECKBOX = (By.XPATH, '/html/body/div[2]/ul/li[15]/input')
     COUNTER = (By.ID, '#counter')
 
+    @allure.step('Selecting checkbox')
     def mark_boxes(self):
-        self.scroll_to(self.CHECKBOX)
-        self.click(self.CHECKBOX)
-        expected = 1
-        actual = self._is_visible(self.COUNTER)
-        self.assert_equal(actual, expected)
+        with allure.step('Scrolling to checkbox'):
+            self.scroll_to(self.CHECKBOX)
+        with allure.step('Selecting checkbox'):
+            self.click(self.CHECKBOX)
+        with allure.step('Checking counter of selected checkboxes'):
+            expected = 1
+            actual = self._is_visible(self.COUNTER)
+            self.assert_equal(actual, expected)
