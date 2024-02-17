@@ -8,7 +8,7 @@ class Assertions:
 
     @staticmethod
     def assert_visibility(element):
-        assert element is True
+        assert element
 
     @staticmethod
     def assert_invisibility(element):

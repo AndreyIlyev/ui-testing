@@ -1,0 +1,3 @@
+[32mINFO    [0m BaseObject:base.py:20 Element ('class name', 'dropdown') is <selenium.webdriver.remote.webelement.WebElement (session="29f8610bbf51e4cd7728843d34eada81", element="4B820AD16A890D3279609C8B84942771_element_1")>
+[32mINFO    [0m BaseObject:base.py:69 Cursor hovered over element <selenium.webdriver.remote.webelement.WebElement (session="29f8610bbf51e4cd7728843d34eada81", element="4B820AD16A890D3279609C8B84942771_element_1")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('xpath', '/html/body/div[2]/div/div[2]/ul/li[2]/a') is <selenium.webdriver.remote.webelement.WebElement (session="29f8610bbf51e4cd7728843d34eada81", element="4B820AD16A890D3279609C8B84942771_element_11")>

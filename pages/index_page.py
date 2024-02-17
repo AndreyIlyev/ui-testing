@@ -4,6 +4,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from support.assertions import Assertions
 import allure
 
+
 class IndexPage(BaseObject, Assertions):
     USERNAME_FIELD: tuple = (By.ID, "username")
     PASSWORD_FIELD: tuple = (By.ID, "password")
@@ -25,11 +26,12 @@ class IndexPage(BaseObject, Assertions):
     def click_login_btn(self):
         self.click(self.LOGIN_BTN)
 
-    @allure.step('Validation of authorization')
+    @allure.step('Validation of url')
     def validate_url(self, url):
-        self.assert_equal(actual=self.get_current_url(),
-                          expected=url)
+        with allure.step('Checking the authorization is done '):
+            self.assert_equal(actual=self.get_current_url(),
+                              expected=url)
 
-    @allure.step('Checking error message')
+    @allure.step('Checking error message is visible')
     def validate_msg(self, error_msg):
         self.assert_equal(actual=self.get_text(self.ERROR_MSG), expected=error_msg)

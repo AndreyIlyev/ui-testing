@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="15.108" timestamp="2024-02-17T17:44:07.898607" hostname="DESKTOP-EU8NHV5"><testcase classname="tests.test_drag_and_drop" name="test_drag_and_drop" time="10.996" /></testsuite></testsuites>

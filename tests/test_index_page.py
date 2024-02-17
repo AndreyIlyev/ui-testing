@@ -21,8 +21,9 @@ def test_successful_login(index_page):
         ('incorrect_username', 'incorrect_password')
     ]
                          )
-@allure.description('Invalid authorization')
+@allure.description('Invalid authorization with different values')
 @allure.suite('Authorization suite')
+@allure.title('invalid credentials')
 def test_invalid_creds(index_page, login, password):
     index_page.enter_username(login)
     index_page.enter_password(password)

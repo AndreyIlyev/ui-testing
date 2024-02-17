@@ -1,0 +1,5 @@
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'username') is <selenium.webdriver.remote.webelement.WebElement (session="12b7de2b28df938e65a163d31b4b4c0a", element="82DDF3F665EE4AE038D496AB15C8DE14_element_3")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'password') is <selenium.webdriver.remote.webelement.WebElement (session="12b7de2b28df938e65a163d31b4b4c0a", element="82DDF3F665EE4AE038D496AB15C8DE14_element_4")>
+[32mINFO    [0m BaseObject:base.py:37 Element('class name', 'login-button') is clickable
+[32mINFO    [0m BaseObject:base.py:20 Element ('class name', 'error-message') is <selenium.webdriver.remote.webelement.WebElement (session="12b7de2b28df938e65a163d31b4b4c0a", element="82DDF3F665EE4AE038D496AB15C8DE14_element_25")>
+[32mINFO    [0m BaseObject:base.py:52 Text from element ('class name', 'error-message') is Password or username is incorrect

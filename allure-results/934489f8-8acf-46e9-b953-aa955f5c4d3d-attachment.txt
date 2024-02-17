@@ -1,0 +1,3 @@
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'username') is <selenium.webdriver.remote.webelement.WebElement (session="41adc4f009467bf2d67c2727a5b8b981", element="CB0AAD483955DD6B20A72CFA58E360A1_element_3")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'password') is <selenium.webdriver.remote.webelement.WebElement (session="41adc4f009467bf2d67c2727a5b8b981", element="CB0AAD483955DD6B20A72CFA58E360A1_element_4")>
+[32mINFO    [0m BaseObject:base.py:20 Element ('class name', 'error-message') is <selenium.webdriver.remote.webelement.WebElement (session="41adc4f009467bf2d67c2727a5b8b981", element="CB0AAD483955DD6B20A72CFA58E360A1_element_25")>

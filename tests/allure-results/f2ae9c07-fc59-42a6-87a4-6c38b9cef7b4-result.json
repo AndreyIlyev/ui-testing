@@ -1,0 +1,1 @@
+{"name": "Successful login", "status": "skipped", "description": "Success login", "start": 1708022508700, "stop": 1708022508700, "uuid": "29a920ae-627a-4ae6-8e2a-5078fd61d83a", "testCaseId": "0b42731c3fb389b9c513ab0137d48924", "fullName": "tests.test_index_page#test_successful_login"}

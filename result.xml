@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="14" time="178.638" timestamp="2024-02-17T17:53:20.032896" hostname="DESKTOP-EU8NHV5"><testcase classname="tests.test_check_and_validate" name="test_check_values[15-Valid]" time="7.743" /><testcase classname="tests.test_check_and_validate" name="test_check_values[9-Not in range]" time="7.639" /><testcase classname="tests.test_check_and_validate" name="test_check_values[51-Not in range]" time="7.712" /><testcase classname="tests.test_check_and_validate" name="test_check_values[-1-Negative integer]" time="7.600" /><testcase classname="tests.test_checkbox_scroll" name="test_checkboxes" time="13.232"><failure message="AssertionError: Expected 1, but actual None">checkbox_scroll_page = &lt;pages.checkbox_scroll.CheckboxScroll object at 0x0000024BF41253A0&gt;
+
+    @allure.title('Test of scrolling and selecting')
+    def test_checkboxes(checkbox_scroll_page):
+&gt;       checkbox_scroll_page.mark_boxes()
+
+tests\test_checkbox_scroll.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pages\checkbox_scroll.py:24: in mark_boxes
+    self.assert_equal(actual, expected)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+actual = None, expected = 1
+
+    @staticmethod
+    def assert_equal(actual, expected):
+&gt;       assert actual == expected, AssertionsMessages.ASSERT_EQUAL.format(expected, actual)
+E       AssertionError: Expected 1, but actual None
+
+support\assertions.py:7: AssertionError</failure></testcase><testcase classname="tests.test_drag_and_drop" name="test_drag_and_drop" time="11.084" /><testcase classname="tests.test_hover_select_page" name="test_droplist" time="8.324" /><testcase classname="tests.test_hover_select_page" name="test_select_item" time="8.471" /><testcase classname="tests.test_index_page" name="test_successful_login" time="8.176" /><testcase classname="tests.test_index_page" name="test_invalid_creds[correct_username-incorrect_password]" time="9.027" /><testcase classname="tests.test_index_page" name="test_invalid_creds[incorrect_username-correct_password]" time="8.009" /><testcase classname="tests.test_index_page" name="test_invalid_creds[incorrect_username-incorrect_password]" time="11.869" /><testcase classname="tests.test_input_and_click" name="test_add_note" time="8.075" /><testcase classname="tests.test_input_and_click" name="test_remove_note" time="8.248" /></testsuite></testsuites>
