@@ -1,3 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'dataInput') is <selenium.webdriver.remote.webelement.WebElement (session="0e67756dde98a64309a2ea75b4a1bf3b", element="9E309EB70D282DF0A8D49CC4D18869E6_element_3")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'validationSquare') is <selenium.webdriver.remote.webelement.WebElement (session="0e67756dde98a64309a2ea75b4a1bf3b", element="9E309EB70D282DF0A8D49CC4D18869E6_element_6")>
-[32mINFO    [0m BaseObject:base.py:52 Text from element ('id', 'validationSquare') is Negative integer

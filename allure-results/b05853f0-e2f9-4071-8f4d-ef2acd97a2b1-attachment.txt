@@ -1,4 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'username') is <selenium.webdriver.remote.webelement.WebElement (session="18a9c81d2d78780497e0e6c5422411a5", element="7560FC003414B7BB10ECB8C82059821D_element_3")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'password') is <selenium.webdriver.remote.webelement.WebElement (session="18a9c81d2d78780497e0e6c5422411a5", element="7560FC003414B7BB10ECB8C82059821D_element_4")>
-[32mINFO    [0m BaseObject:base.py:37 Element('class name', 'login-button') is clickable
-[32mINFO    [0m BaseObject:base.py:61 Current url is https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html

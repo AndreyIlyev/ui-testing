@@ -1,6 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_11")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_11")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_11")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'item-1') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_11")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'item-6') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_16")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('class name', 'done') is <selenium.webdriver.remote.webelement.WebElement (session="9c0cab473dff8c1139c0b55bb8ddd247", element="EFC641AD96FB74C285F1CFDF9418C283_element_17")>

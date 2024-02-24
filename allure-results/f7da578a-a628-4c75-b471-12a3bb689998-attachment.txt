@@ -1,3 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'dataInput') is <selenium.webdriver.remote.webelement.WebElement (session="4ad7da266400f0f678b9cad58a6c4b2b", element="49B5BB3D31B9CC708A96B957B4D74929_element_3")>
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'validationSquare') is <selenium.webdriver.remote.webelement.WebElement (session="4ad7da266400f0f678b9cad58a6c4b2b", element="49B5BB3D31B9CC708A96B957B4D74929_element_10")>
-[32mINFO    [0m BaseObject:base.py:52 Text from element ('id', 'validationSquare') is Not in range
