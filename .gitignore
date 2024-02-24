@@ -3,3 +3,8 @@
 venv
 .idea
 **/pyreport.html
+**/logfile.log
+**/result.xml
+**/test_report.json
+**/test_results.png
+**/__pycache__
