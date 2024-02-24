@@ -1,2 +1,0 @@
-INFO     BaseObject:base.py:20 Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="005251c8da44b057e29e833f10279485", element="42054F306854613C4ED9EB63B720C87C_element_3")>
-ERROR    BaseObject:base.py:32 Element ('css selector', '#items > div') is visible

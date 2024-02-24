@@ -1,4 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('id', 'inputText') is <selenium.webdriver.remote.webelement.WebElement (session="b1b16ec3bda4126aa80e708856372520", element="87C956167A77DC5F405F7BCDCE22C95D_element_3")>
-[32mINFO    [0m BaseObject:base.py:37 Element('id', 'addBtn') is clickable
-[32mINFO    [0m BaseObject:base.py:37 Element('id', 'deleteBtn') is clickable
-[32mINFO    [0m BaseObject:base.py:28 Element ('css selector', '#items > div') is True

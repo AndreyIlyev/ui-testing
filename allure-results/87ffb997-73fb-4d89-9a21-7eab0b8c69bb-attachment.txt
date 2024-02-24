@@ -1,4 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:20 Element ('xpath', '/html/body/div[2]/ul/li[15]/input') is <selenium.webdriver.remote.webelement.WebElement (session="19fb4d21d5db02b7f498a895f7a5345f", element="3AC4BEDAEC82EB0BA603F6E956032872_element_17")>
-[32mINFO    [0m BaseObject:base.py:78 Scroll to element ('xpath', '/html/body/div[2]/ul/li[15]/input') was performed
-[32mINFO    [0m BaseObject:base.py:37 Element('xpath', '/html/body/div[2]/ul/li[15]/input') is clickable
-[1m[31mERROR   [0m BaseObject:base.py:23 Element ('id', '#counter') is invisible
