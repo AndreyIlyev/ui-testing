@@ -10,7 +10,7 @@ class CheckboxScroll(BaseObject, Assertions):
         super().__init__(driver)
 
     CHECKBOX = (By.XPATH, '/html/body/div[2]/ul/li[15]/input')
-    COUNTER = (By.ID, '#counter')
+    COUNTER = (By.XPATH, '//*[@id="counter"]')
 
     @allure.step('Selecting checkbox')
     def mark_boxes(self):
@@ -19,6 +19,6 @@ class CheckboxScroll(BaseObject, Assertions):
         with allure.step('Selecting checkbox'):
             self.click(self.CHECKBOX)
         with allure.step('Checking counter of selected checkboxes'):
-            expected = 1
-            actual = self._is_visible(self.COUNTER)
+            expected = '1'
+            actual = self._is_visible(self.COUNTER).text
             self.assert_equal(actual, expected)
