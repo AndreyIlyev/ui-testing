@@ -8,3 +8,4 @@ venv
 **/test_report.json
 **/test_results.png
 **/__pycache__
+.env

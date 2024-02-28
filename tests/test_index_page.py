@@ -1,6 +1,6 @@
 import pytest
 import allure
-
+from env_config import Creds
 
 @allure.description('Success login')
 @allure.label('owner', 'Andrey')
@@ -16,8 +16,8 @@ def test_successful_login(index_page):
 
 @pytest.mark.parametrize(
     'login, password', [
-        ('correct_username', 'incorrect_password'),
-        ('incorrect_username', 'correct_password'),
+        (Creds.TEST_USERNAME, 'incorrect_password'),
+        ('incorrect_username', Creds.TEST_PASSWORD),
         ('incorrect_username', 'incorrect_password')
     ]
                          )

@@ -20,6 +20,9 @@ trigger:
 pool:
    vmImage: 'windows-latest'
 
+variables:
+  - group: ui-simulator-creds
+
 steps:
 - task: UsePythonVersion@0
   inputs:
@@ -45,6 +48,9 @@ steps:
         pytest -m smoke
   displayName: 'pytest'
   continueOnError: true
+  env:
+    TEST_USERNAME: $(TEST_USERNAME)
+    TEST_PASSWORD: $(TEST_PASSWORD)
 
 - task: PublishTestResults@2
   inputs:

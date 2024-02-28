@@ -1,3 +1,14 @@
+from dotenv import load_dotenv
+import os
+
+
+class Creds:
+    load_dotenv()
+
+    TEST_USERNAME = os.getenv("TEST_USERNAME")
+    TEST_PASSWORD = os.getenv("TEST_PASSWORD")
+
+
 class ConfigURL:
     BASE_URL = 'https://toghrulmirzayev.github.io/ui-simulator/'
     HOVER_URL = f'{BASE_URL}hover_and_select.html'

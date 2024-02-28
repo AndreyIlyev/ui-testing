@@ -4,3 +4,4 @@ webdriver-manager~=4.0.1
 pytest-rerunfailures
 pytest-pyreport
 allure-pytest
+python-dotenv
