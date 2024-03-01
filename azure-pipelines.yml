@@ -67,3 +67,5 @@ steps:
   inputs:
     pathToPublish: '$(Build.SourcesDirectory)\pyreport.html'
     artifactName: 'PytestPyreportArtifact'
+    pathToPublish: '$(Build.SourcesDirectory)\logfile.log'
+    artifactName: 'Log'

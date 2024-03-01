@@ -11,6 +11,7 @@ class Creds:
 
 class ConfigURL:
     BASE_URL = 'https://toghrulmirzayev.github.io/ui-simulator/'
+    AUTH_URL = 'https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html'
     HOVER_URL = f'{BASE_URL}hover_and_select.html'
     INPUT_URL = f'{BASE_URL}input-and-click.html'
     DRAG_URL = f'{BASE_URL}drag-and-drop.html'

@@ -1,6 +1,7 @@
 import pytest
 import allure
 from env_config import Creds
+from env_config import ConfigURL
 
 @allure.description('Success login')
 @allure.label('owner', 'Andrey')
@@ -11,7 +12,7 @@ def test_successful_login(index_page):
     index_page.enter_username()
     index_page.enter_password()
     index_page.click_login_btn()
-    index_page.validate_url(url='https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html')
+    index_page.validate_url(url=ConfigURL.AUTH_URL)
 
 
 @pytest.mark.parametrize(
