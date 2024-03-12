@@ -10,6 +10,7 @@ from pages.input_and_click import InputAndClick
 from pages.drag_and_drop_page import DragAndDrop
 from pages.check_validate_page import CheckValidate
 from pages.checkbox_scroll import CheckboxScroll
+from pages.game_page import GamePage
 
 
 @pytest.fixture
@@ -60,4 +61,10 @@ def check_validate_page(get_webdriver):
 def checkbox_scroll_page(get_webdriver):
     get_webdriver.get(ConfigURL.CHECKBOX_URL)
     yield CheckboxScroll(get_webdriver)
+    get_webdriver.quit()
+
+@pytest.fixture
+def game_page(get_webdriver):
+    get_webdriver.get(ConfigURL.GAME_URL)
+    yield GamePage(get_webdriver)
     get_webdriver.quit()
