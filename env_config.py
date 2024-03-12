@@ -17,3 +17,4 @@ class ConfigURL:
     DRAG_URL = f'{BASE_URL}drag-and-drop.html'
     CHECK_URL = f'{BASE_URL}check_and_validate.html'
     CHECKBOX_URL = f'{BASE_URL}checkbox-and-scroll.html'
+    GAME_URL = f'{BASE_URL}game.html'
