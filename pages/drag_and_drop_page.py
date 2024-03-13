@@ -17,6 +17,7 @@ class DragAndDrop(BaseObject, Assertions):
 
     def __init__(self, driver: WebDriver):
         super().__init__(driver)
+
     @allure.step('Ordering the word')
     def order_word(self):
         self.drag_and_drop(self.ITEM_3, self.ITEM_1)
