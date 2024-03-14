@@ -17,6 +17,7 @@ class GamePage(BaseObject):
     RESULT_MSG: tuple = (By.XPATH, '//*[@id="resultMessage"]')
     CONFIG_MSG: tuple = (By.XPATH, "//span[contains(text(), 'Configuration:')]")
 
+
     def __init__(self, driver: WebDriver):
         super().__init__(driver)
 
@@ -45,8 +46,10 @@ class GamePage(BaseObject):
         self.click(self.CONFIG_BTN)
 
     def test_game(self):
-        self.set_max_number(random.randint(10, 20))
-        self.set_max_attempts(random.randint(1, 9))
+        number = random.randint(10, 20)
+        attempts = random.randint(1, 9)
+        self.set_max_number(number)
+        self.set_max_attempts(attempts)
         self.start_game_btn()
         with allure.step('Checking the game started'):
             assert self._is_visible(self.START_GAME_MSG)
