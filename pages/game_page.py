@@ -62,7 +62,7 @@ class GamePage(BaseObject, Assertions):
             msg = self.get_text(self.RESULT_MSG)
             if msg.startswith('Congratulations!'):
                 break
-            elif msg.startswith('Try again'):
+            else:
                 self._is_visible(self.GUESS_FIELD).clear()
                 continue
 
