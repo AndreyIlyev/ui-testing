@@ -1,12 +1,22 @@
 import allure
-import random
-
 import pytest
 
 
 @allure.title('Testing the game process')
 def test_game(game_page):
-    game_page.test_game()
+    game_page.start_game()
+    game_page.assert_equal(game_page.get_text(game_page.INFORM_MSG), game_page.RULES_MSG)
+
+
+def test_back_to(game_page):
+    game_page.back_to_start()
+    game_page.assert_equal(game_page.get_text(game_page.INFORM_MSG), game_page.CONFIG_MSG)
+
+
+def test_guessing(game_page):
+    game_page.attempt_guess()
+    game_page.assert_existing(game_page.RESULT_MSG)
+
 
 
 case_1 = ['', 3, 'Please enter valid configurations']
@@ -22,4 +32,4 @@ def test_negative_values(game_page, number, attempts, expected_msg):
     game_page.set_max_attempts(attempts)
     game_page.start_game_btn()
     actual_msg = game_page.get_text(game_page.ERROR_MSG)
-    assert actual_msg == expected_msg
+    game_page.assert_equal(actual_msg, expected_msg)
