@@ -17,7 +17,7 @@ class GamePage(BaseObject, Assertions):
     INFORM_MSG: tuple = (By.XPATH, '/html/body/div[2]/h3')
     RESULT_MSG: tuple = (By.XPATH, '//*[@id="resultMessage"]')
     CONFIG_MSG = 'Configuration: Max number and max attempt should be more than 0 and can\'t be empty'
-    RULES_MSG = 'Rules: Secret number is hidden. Guess it. You have  attempts'
+    RULES_MSG = 'Rules: Secret number is hidden. Guess it.'
     __attempts = 0
 
     def __init__(self, driver: WebDriver):

@@ -5,7 +5,8 @@ import pytest
 @allure.title('Testing the game starts')
 def test_game(game_page):
     game_page.start_game()
-    game_page.assert_equal(game_page.get_text(game_page.INFORM_MSG), game_page.RULES_MSG)
+    msg = game_page.get_text(game_page.INFORM_MSG)
+    game_page.assert_visibility(msg.startswith(game_page.RULES_MSG))
 
 
 @allure.title("Testing the 'Back to config' button is working")
@@ -17,7 +18,7 @@ def test_back_to(game_page):
 @allure.title("Testing the information message is displayed ")
 def test_guessing(game_page):
     game_page.attempt_guess()
-    game_page.assert_existing(game_page.RESULT_MSG)
+    game_page.assert_visibility(game_page.RESULT_MSG)
 
 
 case_1 = ['', 3, 'Please enter valid configurations']

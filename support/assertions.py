@@ -7,7 +7,7 @@ class Assertions:
         assert actual == expected, AssertionsMessages.ASSERT_EQUAL.format(expected, actual)
 
     @staticmethod
-    def assert_existing(element):
+    def assert_visibility(element):
         assert element
 
     @staticmethod
