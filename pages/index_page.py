@@ -35,3 +35,4 @@ class IndexPage(BaseObject, Assertions):
     @allure.step('Checking error message is visible')
     def validate_msg(self, error_msg):
         self.assert_equal(actual=self.get_text(self.ERROR_MSG), expected=error_msg)
+
