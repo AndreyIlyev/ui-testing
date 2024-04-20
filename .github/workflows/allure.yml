@@ -39,7 +39,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest --alluredir=allure-results
+          pytest --alluredir=allure-results -m castom
 
       - name: Generate Allure report
         run: |
