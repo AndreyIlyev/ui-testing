@@ -31,5 +31,8 @@ def test_invalid_creds(index_page, login, password):
     index_page.click_login_btn()
     index_page.validate_msg('Password or username is incorrect')
 
+@pytest.mark.castom
+def test_1():
+    pass
 
 
