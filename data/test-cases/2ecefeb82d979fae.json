@@ -1,0 +1,56 @@
+{
+  "uid" : "2ecefeb82d979fae",
+  "name" : "test_1",
+  "fullName" : "tests.test_index_page#test_1",
+  "historyId" : "27ea5db8220704c922e6b23d27ffafa5",
+  "time" : {
+    "start" : 1713637418228,
+    "stop" : 1713637418228,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "castom"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az847-929"
+  }, {
+    "name" : "thread",
+    "value" : "4172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_index_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "castom" ]
+  },
+  "source" : "2ecefeb82d979fae.json",
+  "parameterValues" : [ ]
+}
